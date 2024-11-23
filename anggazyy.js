@@ -319,7 +319,6 @@ break
 
 case "play": {
 if (!text) return m.reply(`*Example:* ${prefix + command} phdotograph`)
-if (!yangbener) return m.reply(`${global.anjg}`)
 let search = await yts(text);
 let telaso = search.all[0].url;
 var responsek = await ytdl(telaso)
@@ -340,7 +339,6 @@ thumbnailUrl: search.all[0].thumbnail,
 break
 case "backup":{
 if (!isCreator) return m.reply('You do not have permission to access this feature.');
-if (!yangbener) return m.reply(`${global.anjg}`)
 const { execSync } = require("child_process");
 const ls = (await execSync("ls")).toString().split("\n").filter(
   (pe) =>
