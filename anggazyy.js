@@ -86,7 +86,7 @@ console.log(
  }
 
 // Self & public
-if (!anggazyy.false) {
+if (!anggazyy.public) {
 if (!m.key.fromMe) return
 } 
 
